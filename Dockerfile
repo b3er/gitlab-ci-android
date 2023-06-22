@@ -15,7 +15,7 @@ RUN apt-get -qq update \
       curl \
       git-core \
       html2text \
-      openjdk-17-jdk \
+      openjdk-19-jdk \
       libc6-i386 \
       lib32stdc++6 \
       lib32gcc1 \

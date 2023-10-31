@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:20.04
 MAINTAINER Ilya usanov <b3er@who.ms>
 
 ENV VERSION_TOOLS "8512546"
@@ -15,7 +15,7 @@ RUN apt-get -qq update \
       curl \
       git-core \
       html2text \
-      openjdk-19-jdk \
+      openjdk-17-jdk \
       libc6-i386 \
       lib32stdc++6 \
       lib32gcc-s1 \
